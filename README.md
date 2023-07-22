@@ -15,7 +15,7 @@ Simple looking search pages with a large interface.
 **Getting Started:**
 
 1. Clone the repository: `git clone https://github.com/ViacheTix/search.git`
-2. Navigate to the repository: 'cd search'
+2. Navigate to the repository: `cd search`
 3. Open the index.html file to view the home page.
 4. Enter your search query in the input box on any of the pages and click "… search" to view the results.
 
@@ -23,11 +23,11 @@ Simple looking search pages with a large interface.
 
 Contributions to enhance and improve the website are always welcome! If you'd like to contribute, please follow these steps:
 
-Fork the repository.
-Create a new branch for your changes: `git checkout -b feature/your-feature`
-Make your changes and commit them: `git commit -m "Add your message here"`
-Push the changes to your forked repository: `git push origin feature/your-feature`
-Create a pull request to merge your changes into the main repository.
+1. Fork the repository.
+2. Create a new branch for your changes: `git checkout -b feature/your-feature`
+3. Make your changes and commit them: `git commit -m "Add your message here"`
+4. Push the changes to your forked repository: `git push origin feature/your-feature`
+5. Create a pull request to merge your changes into the main repository.
 
 **Issues:**
 
