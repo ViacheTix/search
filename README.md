@@ -10,13 +10,12 @@ This repository contains the code for a simple website that allows users to perf
 
 **Features:**
 
-Quick and easy access to Google search functionality.
-Clean and user-friendly interface for an enhanced user experience.
-Responsive design to ensure compatibility across various devices.
-Getting Started:
+Simple looking search pages with a large interface.
 
-1. Clone the repository: git clone https://github.com/your-username/website-google-search.git
-2. Navigate to the repository: cd website-google-search
+**Getting Started:**
+
+1. Clone the repository: `git clone https://github.com/ViacheTix/search.git`
+2. Navigate to the repository: 'cd search'
 3. Open the index.html file to view the home page.
 4. Enter your search query in the input box on any of the pages and click "… search" to view the results.
 
@@ -25,9 +24,9 @@ Getting Started:
 Contributions to enhance and improve the website are always welcome! If you'd like to contribute, please follow these steps:
 
 Fork the repository.
-Create a new branch for your changes: git checkout -b feature/your-feature
-Make your changes and commit them: git commit -m "Add your message here"
-Push the changes to your forked repository: git push origin feature/your-feature
+Create a new branch for your changes: `git checkout -b feature/your-feature`
+Make your changes and commit them: `git commit -m "Add your message here"`
+Push the changes to your forked repository: `git push origin feature/your-feature`
 Create a pull request to merge your changes into the main repository.
 
 **Issues:**
