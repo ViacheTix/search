@@ -21,9 +21,12 @@ nav {
 	margin-right: 80px;
 }
 
+a {
+	text-decoration: none;
+}
+
 nav a {
 	color: black;
-	text-decoration: none;
 	margin-left: 47px;
 }
 
@@ -74,7 +77,15 @@ nav a:hover {
 	text-indent: 86px;
 }
 
-.search-group input[type="submit"] {
+.buttons {
+	display: flex;
+	width: auto;
+	padding: 0 151.11px 0 151.09px;
+	align-items: flex-start;
+	gap: 11.89px;
+}
+
+.search-group input[type="submit"], button {
 	margin: 53px auto 0 auto;
 	display: block;
 	width: 228px;
@@ -96,13 +107,17 @@ nav a:hover {
 	color: var(--tertiary);
 }
 
-.search-group input[type="submit"]:hover {
+.search-group input[type="submit"]:hover, button:hover {
 	background-color: var(--secondary);
 	cursor: pointer;
 }
 
 /* This complex selector I found via Safari's WebInspector. Used for styling the text of the button. */
-input:is([type="submit"]), input[type="file"]::file-selector-button {
+input:is([type="submit"]), input[type="file"]::file-selector-button, button {
 	font-size: 28px;
 	letter-spacing: -1.68px;
+}
+
+#bugfix {
+	margin-bottom: 0px;
 }
