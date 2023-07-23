@@ -121,3 +121,19 @@ input:is([type="submit"]), input[type="file"]::file-selector-button, button {
 #bugfix {
 	margin-bottom: 0px;
 }
+
+#s, #a {
+	color: #4283F7;
+}
+
+#e, #h {
+	color: #EB4437;
+}
+
+#r {
+	color: #FABC07;
+}
+
+#c {
+	color: #34A753;
+}
